@@ -1,0 +1,19 @@
+{
+  "name": "ejemploserver",
+  "version": "1.0.0",
+  "description": "Ejemplo server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "server",
+    "http",
+    "dev"
+  ],
+  "author": "Kevin Montealegre",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^4.2.0"
+  }
+}
