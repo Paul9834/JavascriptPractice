@@ -1,0 +1,14 @@
+{
+  "name": "example_express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express.js",
+  "scripts": {
+    "start": "node express.js"
+  },
+  "author": "Kevin Montealegre",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,5 +1,5 @@
 const http = require ('http');
-
+const boxen = require('boxen')
 
 let server = http.createServer(
     function (request, response) {
@@ -8,4 +8,12 @@ let server = http.createServer(
     }
 );
 
-server.listen(3000);
+server.listen(3000, () => {
+     console.log(boxen(
+         'Kevin Montealegre',
+         {
+             padding: 5,
+             borderColor: 'blue'
+         }
+     ))
+});
